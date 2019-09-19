@@ -6,7 +6,7 @@ export function AwayButtons(props) {
 
     <button className="awayButtons__touchdown"
       onClick={() => {
-      props.setAwayScore(props.awayScore + 7);
+        props.setAwayScore(props.awayScore + 7);
       }}>Away Touchdown
     </button>
 
